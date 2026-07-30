@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: budget-navigator
+spec:
+  selector:
+    app: budget-navigator
+  ports:
+  - port: 80
+    targetPort: 8080
